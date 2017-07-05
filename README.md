@@ -1,5 +1,5 @@
 # svg-map-minasgerais-br
-Mapa de mesorregiões do Estado de Minas Gerais Brasil.
+Mapa de mesorregiões do Estado de Minas Gerais, Brasil.
 
 Com exibição de dados variáveis a partir do Json.
 
