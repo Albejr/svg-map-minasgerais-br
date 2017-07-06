@@ -2,6 +2,7 @@
 Mapa de mesorregiões do Estado de Minas Gerais, Brasil. Com plotagem de dados variáveis a partir de objetos Json.
 
 ![alt text](https://user-images.githubusercontent.com/24717256/27889933-074a1fce-61c6-11e7-9b76-f43b38f02f87.png)
+
 [Fonte: Wikipedia](https://pt.wikipedia.org/wiki/Minas_Gerais)
 
 ```js
