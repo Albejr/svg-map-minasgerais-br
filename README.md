@@ -1,10 +1,8 @@
 # svg-map-minasgerais-br
-Mapa de mesorregiões do Estado de Minas Gerais, Brasil.
+Mapa de mesorregiões do Estado de Minas Gerais, Brasil. Com plotagem de dados variáveis a partir de objetos Json.
+
+![alt text](https://user-images.githubusercontent.com/24717256/27889933-074a1fce-61c6-11e7-9b76-f43b38f02f87.png)
 [Fonte: Wikipedia](https://pt.wikipedia.org/wiki/Minas_Gerais)
-
-Com exibição de dados variáveis a partir do Json.
-
-Obs: A informação contida na propriedade "valor" é fictícia, gerada aleatóriamente para este exemplo.
 
 ```js
 <script type="text/javascript">
@@ -39,6 +37,7 @@ Obs: A informação contida na propriedade "valor" é fictícia, gerada aleatór
   ];
 </script>
 ```
+Obs: As informações contida na propriedade "valor" são fictícias, geradas aleatóriamente para este exemplo.
 [Fonte: IBGE/UF](http://www.ibge.gov.br/home/geociencias/areaterritorial/principal.shtm)
 ```js
 <script type="text/javascript">
