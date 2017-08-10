@@ -1,7 +1,7 @@
-# svg-map-minasgerais-br
-Mapa de mesorregiões do Estado de Minas Gerais, Brasil. Com plotagem de dados variáveis a partir de objetos Json.
+# MESOREGIÔES
+Mapa de mesorregiões do Estado de Minas Gerais, Brasil.
 
-![alt text](https://user-images.githubusercontent.com/24717256/27889933-074a1fce-61c6-11e7-9b76-f43b38f02f87.png)
+![mesorregiões](https://user-images.githubusercontent.com/24717256/27889933-074a1fce-61c6-11e7-9b76-f43b38f02f87.png)
 
 [Fonte: Wikipedia](https://pt.wikipedia.org/wiki/Minas_Gerais)
 
@@ -59,3 +59,54 @@ Obs: As informações contida na propriedade "valor" são fictícias, geradas al
 </script>
 ```
 [Fonte: MGGOV/Mesorregioes](http://www.mgweb.mg.gov.br/governomg/ecp/files.do?evento=download&urlArqPlc=ligminas_10_2_04_listamesomicro.pdf)
+
+# REGIÃO METROPOLITANA
+Mapa da grande belo Horizonte, capital do Estado de Minas Gerais, Brasil.
+
+![rmbh](https://user-images.githubusercontent.com/24717256/29184097-7851529c-7ddb-11e7-9877-52e2a923611e.png)
+
+[Fonte: Wikipedia](https://pt.wikipedia.org/wiki/Minas_Gerais)
+[Fonte: Agenciarmbh](http://www.agenciarmbh.mg.gov.br/rccv)
+
+```js
+<script type="text/javascript">
+  var muni = [
+    { "codigo": "3105004", "nome": "BALDIM", "valor": "550" },
+    { "codigo": "3106200", "nome": "BELO HORIZONTE", "valor": "72350" },
+    { "codigo": "3106705", "nome": "BETIM", "valor": "780" },
+    { "codigo": "3109006", "nome": "BRUMADINHO", "valor": "" },
+    { "codigo": "3110004", "nome": "CAETE", "valor": "" },
+    { "codigo": "3112505", "nome": "CAPIM BRANCO", "valor": "" },
+    { "codigo": "3117876", "nome": "CONFINS", "valor": "" },
+    { "codigo": "3118601", "nome": "CONTAGEM", "valor": "2560" },
+    { "codigo": "3124104", "nome": "ESMERALDAS", "valor": "" },
+    { "codigo": "3126000", "nome": "FLORESTAL", "valor": "2" },
+    { "codigo": "3129806", "nome": "IBIRITE", "valor": "25" },
+    { "codigo": "3130101", "nome": "IGARAPE", "valor": "63" },
+    { "codigo": "3132206", "nome": "ITAGUARA", "valor": "842" },
+    { "codigo": "3133709", "nome": "ITATIAIUCU", "valor": "" },
+    { "codigo": "3134608", "nome": "JABOTICATUBAS", "valor": "" },
+    { "codigo": "3136603", "nome": "NOVA UNIAO", "valor": "" },
+    { "codigo": "3136652", "nome": "JUATUBA", "valor": "" },
+    { "codigo": "3137601", "nome": "LAGOA SANTA", "valor": "" },
+    { "codigo": "3140159", "nome": "MARIO CAMPOS", "valor": "26" },
+    { "codigo": "3140704", "nome": "MATEUS LEME", "valor": "57" },
+    { "codigo": "3141108", "nome": "MATOZINHOS", "valor": "" },
+    { "codigo": "3144805", "nome": "NOVA LIMA", "valor": "87" },
+    { "codigo": "3149309", "nome": "PEDRO LEOPOLDO", "valor": "126" },
+    { "codigo": "3153905", "nome": "RAPOSOS", "valor": "21" },
+    { "codigo": "3154606", "nome": "RIBEIRAO DAS NEVES", "valor": "19" },
+    { "codigo": "3154804", "nome": "RIO ACIMA", "valor": "" },
+    { "codigo": "3155306", "nome": "RIO MANSO", "valor": "" },
+    { "codigo": "3156700", "nome": "SABARA", "valor": "" },
+    { "codigo": "3157807", "nome": "SANTA LUZIA", "valor": "1247" },
+    { "codigo": "3162922", "nome": "SAO JOAQUIM DE BICAS", "valor": "" },
+    { "codigo": "3162955", "nome": "SAO JOSE DA LAPA", "valor": "" },
+    { "codigo": "3165537", "nome": "SARZEDO", "valor": "" },
+    { "codigo": "3168309", "nome": "TAQUARACU DE MINAS", "valor": "" },
+    { "codigo": "3171204", "nome": "VESPASIANO", "valor": "" }
+  ];
+</script>
+```
+Obs: As informações contida na propriedade "valor" são fictícias, geradas aleatóriamente para este exemplo.
+[Fonte: IBGE/UF](http://www.ibge.gov.br/home/geociencias/areaterritorial/area.php?nome=belo+horizonte)
