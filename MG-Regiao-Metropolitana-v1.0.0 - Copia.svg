@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="720"
+   height="590"
+   viewBox="0 -15000 360000 295000"
+   onload="init(evt)"
+   version="1.1"
+   id="svg180"
+   sodipodi:docname="MG-Regiao-Metropolitana-v1.0.0 - Copia.svg"
+   inkscape:version="0.92.1 r15371"><metadata
+   id="metadata184">
+  <rdf:RDF>
+    <cc:Work
+       rdf:about="">
+      <dc:format>image/svg+xml</dc:format>
+      <dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    </cc:Work>
+  </rdf:RDF>
+</metadata>
+<sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="2560"
+   inkscape:window-height="1017"
+   id="namedview182"
+   showgrid="false"
+   inkscape:zoom="1.6"
+   inkscape:cx="213.94079"
+   inkscape:cy="158.13032"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg180" />
+<title
+   id="title2">RMBH - MG - Brasil</title>
+<desc
+   id="desc4">
+		A Regiao Metropolitana de Belo Horizonte (RMBH) e a terceira maior aglomeracao urbana do Brasil.
+		- Municipios:		34
+		Fonte: https://pt.wikipedia.org/wiki/RegiÃÂ£o_Metropolitana_de_Belo_Horizonte
+	</desc>
+<defs
+   id="defs10">
+  <style
+     type="text/css"
+     id="style6"><![CDATA[
+				.str0 {stroke:#72706F; stroke-width:76; stroke-linecap:round; stroke-linejoin:round;}
+				.str5 {stroke:#C2C1C1; stroke-width:76;}
+				.str3 {stroke:#131516; stroke-width:76; stroke-linecap:round; stroke-linejoin:round;}
+				.str6 {stroke:#D82B40; stroke-width:76;}
+				.str4 {stroke:#1F1A17; stroke-width:353;}
+				.str1 {stroke:#72706F; stroke-width:353; stroke-linecap:round; stroke-linejoin:round;}
+				.str2 {stroke:#131516; stroke-width:353; stroke-linecap:round; stroke-linejoin:round;}
+				.str8 {stroke:#1F1A17; stroke-width:706;}
+				.str7 {stroke:#D82B40; stroke-width:1058;}
+				.fil3 {fill:none;}
+				.fil10 {fill:#ECECEB;}
+				.fil6 {fill:#84C225;}
+				.fil4 {fill:#99AE6A;}
+				.fil8 {fill:#E87877;}
+				.fil7 {fill:#F8C300;}
+				.fil5 {fill:#FFF974;}
+				.fil9 {fill:#FFFFFF;}
+				.fil0 {fill:#9DBDDD;}
+				.fil1 {fill:#FFFFFF;}
+				.fil2 {fill:#F6EAD9;}
+				.fil12 {fill:#D82B40;}
+				.fil11 {fill:#ECECEB;}
+				.fil13 {fill:#0075C8;}
+
+				.fonte {fill: white; stroke: black; stroke-width: 100; opacity: 0.85;}
+				.number {font-size: 450em; fill:#333333; font-weight:bold;}
+				.legend {font-size: 500em; fill:#666666; font-weight:bold;}
+				.hoverUF:hover,
+				path[id^="mun_"]:hover {opacity: 0.5; cursor:crosshair;} 
+			]]></style>
+  <script
+     type="text/ecmascript"
+     id="script8"><![CDATA[
+				var muni = [
+					{ "codigo": "3105004", "nome": "BALDIM", "valor": "550" },
+					{ "codigo": "3106200", "nome": "BELO HORIZONTE", "valor": "72350" },
+					{ "codigo": "3106705", "nome": "BETIM", "valor": "780" },
+					{ "codigo": "3109006", "nome": "BRUMADINHO", "valor": "" },
+					{ "codigo": "3110004", "nome": "CAETE", "valor": "" },
+					{ "codigo": "3112505", "nome": "CAPIM BRANCO", "valor": "" },
+					{ "codigo": "3117876", "nome": "CONFINS", "valor": "" },
+					{ "codigo": "3118601", "nome": "CONTAGEM", "valor": "2560" },
+					{ "codigo": "3124104", "nome": "ESMERALDAS", "valor": "" },
+					{ "codigo": "3126000", "nome": "FLORESTAL", "valor": "2" },
+					{ "codigo": "3129806", "nome": "IBIRITE", "valor": "25" },
+					{ "codigo": "3130101", "nome": "IGARAPE", "valor": "63" },
+					{ "codigo": "3132206", "nome": "ITAGUARA", "valor": "842" },
+					{ "codigo": "3133709", "nome": "ITATIAIUCU", "valor": "" },
+					{ "codigo": "3134608", "nome": "JABOTICATUBAS", "valor": "" },
+					{ "codigo": "3136603", "nome": "NOVA UNIAO", "valor": "" },
+					{ "codigo": "3136652", "nome": "JUATUBA", "valor": "" },
+					{ "codigo": "3137601", "nome": "LAGOA SANTA", "valor": "" },
+					{ "codigo": "3140159", "nome": "MARIO CAMPOS", "valor": "26" },
+					{ "codigo": "3140704", "nome": "MATEUS LEME", "valor": "57" },
+					{ "codigo": "3141108", "nome": "MATOZINHOS", "valor": "" },
+					{ "codigo": "3144805", "nome": "NOVA LIMA", "valor": "87" },
+					{ "codigo": "3149309", "nome": "PEDRO LEOPOLDO", "valor": "126" },
+					{ "codigo": "3153905", "nome": "RAPOSOS", "valor": "21" },
+					{ "codigo": "3154606", "nome": "RIBEIRAO DAS NEVES", "valor": "19" },
+					{ "codigo": "3154804", "nome": "RIO ACIMA", "valor": "" },
+					{ "codigo": "3155306", "nome": "RIO MANSO", "valor": "" },
+					{ "codigo": "3156700", "nome": "SABARA", "valor": "" },
+					{ "codigo": "3157807", "nome": "SANTA LUZIA", "valor": "1247" },
+					{ "codigo": "3162922", "nome": "SAO JOAQUIM DE BICAS", "valor": "" },
+					{ "codigo": "3162955", "nome": "SAO JOSE DA LAPA", "valor": "" },
+					{ "codigo": "3165537", "nome": "SARZEDO", "valor": "" },
+					{ "codigo": "3168309", "nome": "TAQUARACU DE MINAS", "valor": "" },
+					{ "codigo": "3171204", "nome": "VESPASIANO", "valor": "" }
+				];
+				
+				var colar = [
+					{ "codigo": "3105400", "nome": "Barao de Cocais", "valor": "550" },
+					{ "codigo": "3106408", "nome": "Belo Vale", "valor": "550" },
+					{ "codigo": "3107703", "nome": "Bom Jesus do Amparo", "valor": "550" },
+					{ "codigo": "3108107", "nome": "Bonfim", "valor": "550" },
+					{ "codigo": "3126406", "nome": "Fortuna de Minas", "valor": "550" },
+					{ "codigo": "3127206", "nome": "Funilandia", "valor": "550" },
+					{ "codigo": "3131000", "nome": "Inhauma", "valor": "550" },
+					{ "codigo": "3131901", "nome": "Itabirito", "valor": "550" },
+					{ "codigo": "3133808", "nome": "Itauna", "valor": "550" },
+					{ "codigo": "3142304", "nome": "Moeda", "valor": "550" },
+					{ "codigo": "3147105", "nome": "Para de Minas", "valor": "550" },
+					{ "codigo": "3153608", "nome": "Prudente de Morais", "valor": "550" },
+					{ "codigo": "3157203", "nome": "Santa Barbara", "valor": "550" },
+					{ "codigo": "3161908", "nome": "Sao Goncalo do Rio Abaixo", "valor": "550" },
+					{ "codigo": "3163102", "nome": "Sao Jose da Varginha", "valor": "550" },
+					{ "codigo": "3167202", "nome": "Sete Lagoas", "valor": "550" }
+				];
+
+				function init(evt) {
+					if ( window.svgDocument == null ) {
+						svgDoc = evt.target.ownerDocument;
+
+						for(var i in muni) {
+							//console.log(muni[i].codigo, muni[i].nome);
+							var municipio = svgDoc.getElementById("mun_" + muni[i].codigo);
+							var txtNumero = svgDoc.getElementById("num_" + muni[i].codigo);
+
+							if(municipio) {
+								municipio.setAttributeNS(null, "nome", muni[i].nome);
+								municipio.setAttributeNS(null, "valor", muni[i].valor);
+
+								municipio.addEventListener("mouseenter", function(e) {
+									var texto = e.target.getAttributeNS(null, "nome");
+									DisplayName(texto);
+								}, true);
+
+								municipio.addEventListener("onmouseout", function(e) {
+								}, true);
+							}
+
+							if(txtNumero) {
+								txtNumero.firstChild.data = muni[i].valor;
+							}
+						}
+					}
+				};
+
+				function DisplayName(txt) {
+					svgDoc.getElementById('path_name').firstChild.data = txt;
+				};
+			]]></script>
+</defs>
+<a
+   href="https://upload.wikimedia.org/wikipedia/commons/2/22/MinasGerais_Metro_BeloHorizonte.svg"
+   target="_blank"
+   id="a178"
+   transform="matrix(516.26434,0,0,516.26434,-2576925.7,-105565480)">
+  <text
+     x="5000"
+     y="205000"
+     id="text176">Fonte: wikipedia</text>
+</a>
+
+	O seu navegador nao suporta esta renderizacao de SVG.
+</svg>
