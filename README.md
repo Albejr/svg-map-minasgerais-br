@@ -1,4 +1,4 @@
-# MESOREGIÔES
+# MESOREGIÕES
 Mapa de mesorregiões do Estado de Minas Gerais, Brasil.
 
 ![mesorregiões](https://user-images.githubusercontent.com/24717256/27889933-074a1fce-61c6-11e7-9b76-f43b38f02f87.png)
