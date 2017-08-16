@@ -115,7 +115,7 @@
 								unidadefederal.setAttributeNS(null, "nome", ufs[i].nome);
 
 								var vlr = ufs[i].valor;
-								if(vlr != undefined && vlr != '' && vlr.length > 0) {
+								if(vlr != undefined && vlr != '' && vlr > 0) {
 									unidadefederal.setAttributeNS(null, "valor", ufs[i].valor);
 									unidadefederal.setAttributeNS(null, "class", "hoverUF fil13 str4");	
 
