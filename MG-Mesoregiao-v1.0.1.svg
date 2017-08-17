@@ -127,7 +127,7 @@
 									}, true);
 
 									unidadefederal.addEventListener("onmouseout", function(e) {
-										ideTooltip();
+										HideTooltip();
 									}, true);
 								}
 								else {
