@@ -126,7 +126,8 @@
 										ShowTooltip(e, texto);
 									}, true);
 
-									unidadefederal.addEventListener("onmouseout", function(e) {
+									unidadefederal.addEventListener("mouseout", function(e) {
+										DisplayName('');
 										HideTooltip();
 									}, true);
 								}
@@ -146,18 +147,31 @@
 								mesorreg.setAttributeNS(null, "valor", meso[i].valor);
 
 								mesorreg.addEventListener("mouseenter", function(e) {
-								var texto = e.target.getAttributeNS(null, "nome");
-								DisplayName(texto);
+									var texto = e.target.getAttributeNS(null, "nome");
+									DisplayName(texto);
 									//ShowTooltip(e, texto);
 								}, true);
 
-								mesorreg.addEventListener("onmouseout", function(e) {
+								mesorreg.addEventListener("mouseout", function(e) {
+									DisplayName('');
 									//HideTooltip();
 								}, true);
 							}
 
 							if(txtNumero) {
 								txtNumero.firstChild.data = meso[i].valor;
+
+								txtNumero.setAttributeNS(null, "nome", meso[i].nome);
+								txtNumero.setAttributeNS(null, "valor", meso[i].valor);
+
+								txtNumero.addEventListener("mouseenter", function(e) {
+									var texto = e.target.getAttributeNS(null, "nome");
+									DisplayName(texto);
+								}, true);
+
+								txtNumero.addEventListener("mouseout", function(e) {
+									DisplayName('');
+								}, true);
 							}
 						}
 					}
