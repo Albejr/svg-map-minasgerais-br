@@ -124,12 +124,25 @@
 									DisplayName(texto);
 								}, true);
 
-								municipio.addEventListener("onmouseout", function(e) {
+								municipio.addEventListener("mouseout", function(e) {
+									DisplayName('');
 								}, true);
 							}
 
 							if(txtNumero) {
 								txtNumero.firstChild.data = muni[i].valor;
+
+								txtNumero.setAttributeNS(null, "nome", muni[i].nome);
+								txtNumero.setAttributeNS(null, "valor", muni[i].valor);
+
+								txtNumero.addEventListener("mouseenter", function(e) {
+									var texto = e.target.getAttributeNS(null, "nome");
+									DisplayName(texto);
+								}, true);
+
+								txtNumero.addEventListener("mouseout", function(e) {
+									DisplayName('');
+								}, true);
 							}
 						}
 					}
