@@ -1,3 +1,6 @@
+<h1 align="center"><i>Mapa em SVG</i></h1>
+<p align="center"><i>Possibilita plotar dados dinâmicos sobre regiões específicadas do mapa, utilizando apenas javascript e renderização SVG (sem a necessidade de plugin específicos).</i></p>
+
 # MESOREGIÕES
 Mapa de mesorregiões do Estado de Minas Gerais, Brasil.
 
